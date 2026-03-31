@@ -1,253 +1,92 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+# Mastering Python
 
+Material abierto para **profundizar en Python** de forma ordenada: desde la sintaxis básica hasta temas avanzados de arquitectura y diseño de sistemas. Cualquiera puede clonar el repositorio, seguir las fases y practicar a su ritmo.
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+## Objetivos por fase
 
-  <h3 align="center">Best-README-Template</h3>
+### Fase 1 — Fundamentos y sintaxis
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+En esta etapa el foco es entender cómo expresar instrucciones claras a la máquina y habitualizarse a los errores de sintaxis como parte normal del aprendizaje.
 
+- **Conceptos clave:** variables, tipos de datos (`str`, enteros, booleanos), operadores lógicos y aritméticos.
+- **Estructuras de control:** condicionales (`if`, `else`) y bucles (`for`, `while`).
+- **Hito:** primer «Hola mundo» y scripts sencillos (por ejemplo calculadora por consola o juego de adivinanzas).
+- **Desafío típico:** depurar indentación y detalles de sintaxis sin frustrarse.
 
+**Material:** [Fase 1 — conceptos y métricas](phases/01-fundamentos-y-sintaxis/conceptos-estructuras-y-metricas.md), [reto integrador](phases/01-fundamentos-y-sintaxis/RETO-FASE-1.md).
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+### Fase 2 — Estructura y resolución de problemas
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Salir del guion lineal y organizar la lógica en piezas reutilizables.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+- **Conceptos clave:** funciones, manejo de errores (`try` / `except`), lectura y escritura de archivos.
+- **Estructuras de datos:** listas, diccionarios, tuplas y conjuntos; almacenar y recuperar información con criterio.
+- **Paradigmas:** introducción a programación orientada a objetos (clases, herencia) o enfoque funcional.
+- **Hito:** algoritmos introductorios (estilo ejercicios de plataformas de práctica) y pequeños programas útiles (organización de archivos, scraping básico, etc.).
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+### Fase 3 — Construcción y ecosistema
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Usar Python como palanca dentro de un ecosistema real: APIs, datos y despliegue.
 
-Use the `BLANK_README.md` to get started.
+- **Conceptos clave:** consumo de APIs (REST/GraphQL), bases de datos SQL y NoSQL, programación asíncrona (`async` / `await`, hilos o tareas según el caso).
+- **Herramientas:** Git, terminal, entornos virtuales, contenedores (por ejemplo Docker) cuando aplique.
+- **Frameworks web (Python):** profundizar en al menos uno (por ejemplo Django o FastAPI) según el interés.
+- **Hito:** aplicación desplegable con CRUD, autenticación y persistencia.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### Fase 4 — Calidad, mantenibilidad y arquitectura
 
+Que el código no solo funcione, sino que sea comprensible y fácil de evolucionar.
 
+- **Clean code:** nombres claros, funciones con una responsabilidad clara, refactorización.
+- **Principios y patrones:** SOLID, DRY, patrones de diseño habituales.
+- **Testing:** pruebas unitarias, de integración, enfoque TDD cuando convenga.
+- **DevOps básico:** CI/CD.
+- **Hito:** código cubierto por pruebas y legible para otras personas sin guión oral permanente.
 
-### Built With
+### Fase 5 — Profundidad y diseño de sistemas
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Entender cómo funciona el lenguaje y el runtime bajo el capó, y diseñar sistemas grandes.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+- **Funcionamiento interno:** modelo de memoria, recolector de basura, ciclo de compilación/ejecución en CPython, optimización informada.
+- **Arquitectura:** microservicios, sistemas distribuidos, datos a escala, alta concurrencia.
+- **Comunidad y liderazgo técnico:** open source, estándares de equipo, mentoría.
+- **Hito:** plantear arquitectura de sistemas complejos desde cero y elegir herramientas con criterio (qué usar y qué descartar).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Estructura del repositorio
 
+| Ruta | Descripción |
+|------|-------------|
+| [`phases/`](phases/) | Material y ejercicios por fase (`01-` … `05-`). Índice: [`phases/README.md`](phases/README.md). |
+| [`CHANGELOG.md`](CHANGELOG.md) | Cambios recientes en el material. |
 
+### Nomenclatura de carpetas
 
-<!-- GETTING STARTED -->
-## Getting Started
+Prefijo numérico (`01-`, `02-`, …) más nombre en **kebab-case** en español:
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. `01-fundamentos-y-sintaxis`
+2. `02-intermedio-estructura-y-problemas`
+3. `03-avanzado-ecosistema`
+4. `04-profesional-calidad-y-arquitectura`
+5. `05-experto-y-master`
 
-### Prerequisites
+## Requisitos
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- **Python 3** (versión reciente). Tamaños y tiempos medidos con `sys.getsizeof` / `timeit` pueden variar según versión y arquitectura.
 
-### Installation
+## Uso sugerido
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clonar el repositorio.
+2. Revisar la sección **Objetivos por fase** y abrir la carpeta correspondiente en `phases/`.
+3. En Fase 1, ejecutar desde la raíz del repo:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+```bash
+python phases/01-fundamentos-y-sintaxis/mediciones_fase1.py
+```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Licencia
 
+El contenido se distribuye bajo la licencia indicada en [`LICENSE.txt`](LICENSE.txt).
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+<p align="right">(<a href="#top">volver arriba</a>)</p>
