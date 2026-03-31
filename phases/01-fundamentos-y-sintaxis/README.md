@@ -7,6 +7,11 @@ Objetivo de la fase: dominar variables, tipos básicos, operadores y estructuras
 - [Conceptos, estructuras de control y métricas (memoria y tiempo)](./conceptos-estructuras-y-metricas.md)
 - [Reto integrador de la fase — «Liga de la suma oculta»](./RETO-FASE-1.md)
 
+## Scripts de ejemplo
+
+- [hola-mundo.py](./hola-mundo.py): primer script interactivo con validaciones basicas.
+- [liga-suma-oculta.py](./liga-suma-oculta.py): solucion de referencia del reto integrador en consola.
+
 ## Medición reproducible
 
 Para imprimir en consola tamaños aproximados (`sys.getsizeof`) y tiempos de referencia (`timeit`), ejecuta desde la raíz del repositorio:
